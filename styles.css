@@ -11,11 +11,16 @@ body {
 =======
     margin: 0 auto;
     display: none;
+<<<<<<< HEAD
 >>>>>>> 3beac70 (first run)
+=======
+    width: 130%;
+>>>>>>> a16bf3b (yes)
 }
 
 .image {
     width: 100vw;
+<<<<<<< HEAD
 <<<<<<< HEAD
     max-height: 100vh;
     margin: 0 auto;
@@ -27,6 +32,9 @@ body {
     margin-right: auto;
     width: 66%;
 =======
+=======
+    max-height: 100vh;
+>>>>>>> a16bf3b (yes)
 }
 
 .logo {
@@ -77,7 +85,25 @@ body {
     font-size: 66px;
 }
 
+<<<<<<< HEAD
 >>>>>>> 3beac70 (first run)
+=======
+.about-text {
+    font-family: sans-serif;
+    font-size: 32px;
+}
+
+.coming-text {
+    padding-top: 120px;
+}
+
+.submit-button {
+    padding: 10px auto;
+    margin: 10px auto;
+    width: 30.6vw;
+}
+
+>>>>>>> a16bf3b (yes)
 
 .container {
     width: 100%;
@@ -122,11 +148,15 @@ button {
 background-color: #2F2F2F;
 border: none;
 color: #ddd;
-margin: 10px 0;
+margin: 0 auto;
 padding: 10px;
 border-radius: 5px;
 height: 35px;
+<<<<<<< HEAD
 >>>>>>> 3beac70 (first run)
+=======
+text-align: center;
+>>>>>>> a16bf3b (yes)
 }
 
 
