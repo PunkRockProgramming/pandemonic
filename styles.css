@@ -44,7 +44,6 @@ body {
     width: 30.6vw;
 }
 
-
 .container {
     width: 100%;
     display: grid;
@@ -53,29 +52,27 @@ body {
 }
   
 .form-control {
-display: flex;
-width: 30vw;
-border-radius: 5px;
-border: 2px solid #2F2F2F;
-height: 30px;
-text-align: center;;
+    display: flex;
+    width: 30vw;
+    border-radius: 5px;
+    border: 2px solid #2F2F2F;
+    height: 30px;
+    text-align: center;
 }
 
 button {
-background-color: #2F2F2F;
-border: none;
-color: #ddd;
-margin: 0 auto;
-padding: 10px;
-border-radius: 5px;
-height: 35px;
-text-align: center;
+    background-color: #2F2F2F;
+    border: none;
+    color: #ddd;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    height: 35px;
+    text-align: center;
 }
 
 
 @media only screen and (max-width: 600px) {
-
-
     .image {
         display: flex;
         justify-self: center;
