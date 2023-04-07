@@ -13,7 +13,7 @@ unlockForm.addEventListener("submit", (e) => {
 
   let unlock = document.getElementById("unlock");
 
-  if (unlock.value == "top ten state") {
+  if (unlock.value.toLowerCase() == "top ten state") {
 
     audio.style.display = 'flex';
     unlockForm.style.display = 'none';
