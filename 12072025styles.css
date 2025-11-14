@@ -1,0 +1,21 @@
+body {
+    font-size: 200%;
+    margin-bottom: 50px;
+    background-color: #070707;
+}
+h1 {
+    color: #907241;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 2em;
+    margin-bottom: 8px;
+}
+
+h2 {
+    color: #907241;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 0.8em;
+}
+
+a {
+    color: #907241;
+}
