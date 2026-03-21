@@ -1,10 +1,9 @@
-body { 
+body {
     margin: 0 auto !important;
     background-color: white;
 }
 
 #audio {
-    display: none;
     width: 200%;
     margin-left: -50%;
 }
@@ -64,7 +63,7 @@ body {
     align-items: center;
     margin-top: 33px;
 }
-  
+
 .form-control {
     display: flex;
     width: 30vw;
@@ -92,7 +91,7 @@ button {
         justify-self: center;
         width: 106vw;
     }
-    
+
     .text {
         align-self: center;
         margin: 0 auto;
@@ -104,7 +103,7 @@ button {
         font-family: sans-serif;
         font-size: 18px;
     }
-    
+
     .logo-container {
         width: 104vw;
     }
@@ -124,7 +123,7 @@ button {
     .form-control {
         display: flex;
         width: 80vw;
-       
+
         border: 2px solid #2F2F2F;
     }
 

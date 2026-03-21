@@ -1,0 +1,72 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Destined For Dirt">
+  <div class="hub">
+    <h1>DESTINED FOR DIRT</h1>
+    <nav>
+      <a href="/pandemonic/">PANDEMONIC</a>
+      <a href="/respair/">RESPAIR</a>
+    </nav>
+    <p class="contact">
+      <a href="mailto:destinedfordirt@gmail.com">destinedfordirt@gmail.com</a>
+    </p>
+  </div>
+</BaseLayout>
+
+<style>
+  body {
+    margin: 0;
+    background-color: #070707;
+  }
+  .hub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  h1 {
+    color: #774F17;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  nav a {
+    color: #907241;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  .contact {
+    margin-top: 60px;
+  }
+  .contact a {
+    color: #907241;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 0.9em;
+    text-decoration: none;
+  }
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2em;
+    }
+    nav a {
+      font-size: 1.2em;
+    }
+  }
+</style>
