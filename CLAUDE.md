@@ -31,4 +31,6 @@ No test suite or linter is configured.
 - Image filenames use hyphens, no spaces (e.g., `apple-logo.png` not `apple logo.png`)
 - Show pages are named by date: `MMDDYYYY.astro`
 - Show links on the Respair page use relative paths (`/shows/MMDDYYYY/`), not absolute URLs
-- Deployment is via GitHub Actions on push to `main` — repo Pages setting should use "GitHub Actions" source, not "branch"
+- The default branch is `first-run` (not `main`)
+- Deployment is via GitHub Actions on push — repo Pages setting should use "GitHub Actions" source, not "branch"
+- When adding a new show: create `src/pages/shows/MMDDYYYY.astro` using ShowLayout + BandBlock, add the poster to `public/shows/`, and add a listing entry on the Respair page
