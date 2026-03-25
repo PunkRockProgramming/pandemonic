@@ -2,7 +2,7 @@
 
 ## Fix immediately
 - [ ] Add bio — nothing tells a stranger who you are
-- [ ] Add contact method (obfuscated email or contact form)
+- [x] Add contact method (obfuscated email or contact form)
 - [x] Update shows section — moved past shows, added 03/29 and 05/16 upcoming shows
 
 ## Content to add
@@ -19,6 +19,7 @@
 - [ ] Optimize buphomet.png (12.6MB)
 
 ## Completed
+- [x] Added contact forms to Pandemonic and Respair pages (Web3Forms, separate inboxes per band)
 - [x] Migrated site from flat HTML to Astro static site generator
 - [x] Created DFD hub landing page at /
 - [x] Created reusable ShowLayout + BandBlock components
