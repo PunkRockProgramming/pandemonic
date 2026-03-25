@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import StreamingLinks from '../../components/StreamingLinks.astro';
+import ContactForm from '../../components/ContactForm.astro';
 import '../../styles/respair.css';
 ---
 
@@ -28,5 +29,14 @@ import '../../styles/respair.css';
     <h2>Past Shows</h2>
     <a class="show-link" href="/shows/12072025/">12/07/2025 - OKC - The Pet Shop</a><br />
     <a class="show-link" href="/shows/08162025/">08/16/2025 - OKC - Hooligan's</a><br />
+  </div>
+
+  <div class="shows">
+    <h1>CONTACT</h1>
+    <ContactForm
+      accessKey="ea1405d3-0166-499a-9525-23b9e3b14187"
+      subject="Respair Contact"
+      redirectUrl="https://www.destinedfordirt.com/respair/?success=true"
+    />
   </div>
 </BaseLayout>
